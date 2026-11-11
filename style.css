@@ -169,29 +169,26 @@
 .portrait-tech-logo-python{top:-40px;left:calc(50% - 20px);animation-delay:-1.8s}
 .portrait-tech-logo-telegram{top:68%;right:-40px;animation-delay:-2.7s}
 .portrait-tech-logo-sheets{top:68%;left:-40px;animation-delay:-3.1s}
-.portrait-tech-logo-gemini{top:30%;right:-40px;animation-delay:-2.2s}
-.portrait-tech-logo-github{top:calc(100% + 8px);left:calc(50% - 20px);animation-delay:-3.6s}
+.portrait-tech-logo-github{top:30%;right:-40px;animation-delay:-2.2s}
 .dark-theme .portrait-tech-logo-github img{filter:brightness(0) invert(1)}
 @keyframes tech-logo-float{0%,100%{transform:translateY(0)}50%{transform:translateY(-7px)}}
 @media(max-width:700px){
   .portrait-tech-logo{width:28px;height:28px}
   .portrait-tech-logo-n8n{top:30%;left:calc(50% - 178px);right:auto}
   .portrait-tech-logo-sheets{top:68%;left:calc(50% - 178px);right:auto}
-  .portrait-tech-logo-gemini{top:30%;left:auto;right:calc(50% - 150px)}
+  .portrait-tech-logo-github{top:30%;left:auto;right:calc(50% - 150px)}
   .portrait-tech-logo-telegram{top:68%;left:auto;right:calc(50% - 150px)}
   .portrait-tech-logo-python{top:-34px;left:calc(50% - 14px);right:auto}
-  .portrait-tech-logo-github{top:calc(100% + 5px);left:calc(50% - 14px);right:auto}
 }
 @media(max-width:390px){
   .portrait-stage{max-width:280px}
   .portrait-tech-logo-n8n,.portrait-tech-logo-sheets{left:calc(50% - 168px)}
-  .portrait-tech-logo-gemini,.portrait-tech-logo-telegram{right:calc(50% - 140px)}
+  .portrait-tech-logo-github,.portrait-tech-logo-telegram{right:calc(50% - 140px)}
 }
 @media(max-width:360px){
   .portrait-tech-logo{width:24px;height:24px}
   .portrait-tech-logo-n8n,.portrait-tech-logo-sheets{left:calc(50% - 164px)}
-  .portrait-tech-logo-gemini,.portrait-tech-logo-telegram{right:calc(50% - 140px)}
+  .portrait-tech-logo-github,.portrait-tech-logo-telegram{right:calc(50% - 140px)}
   .portrait-tech-logo-python{top:-30px;left:calc(50% - 12px)}
-  .portrait-tech-logo-github{left:calc(50% - 12px)}
 }
 @media(prefers-reduced-motion:reduce){.portrait-tech-logo{animation:none}}
