@@ -173,7 +173,31 @@
 .portrait-tech-logo-github{top:73%;left:-34px;animation-delay:-3.6s}
 .dark-theme .portrait-tech-logo-github img{filter:brightness(0) invert(1)}
 @keyframes tech-logo-float{0%,100%{transform:translateY(0)}50%{transform:translateY(-7px)}}
-@media(max-width:700px){.portrait-tech-logo{width:32px;height:32px;left:36px;right:auto}.portrait-tech-logo-n8n{top:16%}.portrait-tech-logo-python{top:29%}.portrait-tech-logo-sheets{top:42%}.portrait-tech-logo-telegram{top:55%}.portrait-tech-logo-gemini{top:68%}.portrait-tech-logo-github{top:81%}}
-@media(max-width:390px){.portrait-tech-logo{width:28px;height:28px;left:36px}}
-@media(max-width:360px){.portrait-tech-logo{width:20px;height:20px;left:0}.portrait-tech-logo img{width:20px;height:20px}}
+@media(max-width:700px){
+  .portrait-tech-logo{width:32px;height:32px}
+  .portrait-tech-logo-python{top:-14px;left:50%;right:auto;transform:translateX(-50%)}
+  .portrait-tech-logo-n8n{top:25%;left:0;right:auto}
+  .portrait-tech-logo-sheets{top:52%;left:0;right:auto}
+  .portrait-tech-logo-github{top:78%;left:0;right:auto}
+  .portrait-tech-logo-gemini{top:38%;left:0;right:auto}
+  .portrait-tech-logo-telegram{top:65%;left:0;right:auto}
+}
+@media(max-width:390px){
+  .portrait-tech-logo{width:28px;height:28px}
+  .portrait-tech-logo-n8n{top:24%;left:0}
+  .portrait-tech-logo-sheets{top:51%;left:0}
+  .portrait-tech-logo-github{top:78%;left:0}
+  .portrait-tech-logo-gemini{top:38%;left:0;right:auto}
+  .portrait-tech-logo-telegram{top:65%;left:0;right:auto}
+}
+@media(max-width:360px){
+  .portrait-tech-logo{width:20px;height:20px;left:0;right:auto}
+  .portrait-tech-logo img{width:20px;height:20px}
+  .portrait-tech-logo-python{left:50%;right:auto;transform:translateX(-50%)}
+  .portrait-tech-logo-n8n{top:20%}
+  .portrait-tech-logo-sheets{top:36%}
+  .portrait-tech-logo-github{top:52%}
+  .portrait-tech-logo-gemini{top:68%}
+  .portrait-tech-logo-telegram{top:84%}
+}
 @media(prefers-reduced-motion:reduce){.portrait-tech-logo{animation:none}}
