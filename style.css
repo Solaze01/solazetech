@@ -163,41 +163,35 @@
 
 .portrait-orbit-wrap{position:relative;min-width:0}
 .portrait-tech-logos{position:absolute;inset:0;z-index:4;pointer-events:none}
-.portrait-tech-logo{position:absolute;display:grid;place-items:center;width:32px;height:32px;filter:drop-shadow(0 3px 6px rgba(20,32,51,.3));animation:tech-logo-float 5.4s ease-in-out infinite}
+.portrait-tech-logo{position:absolute;display:grid;place-items:center;width:40px;height:40px;filter:drop-shadow(0 3px 6px rgba(20,32,51,.3));animation:tech-logo-float 5.4s ease-in-out infinite}
 .portrait-tech-logo img{width:100%;height:100%;max-width:none;max-height:none;object-fit:contain}
-.portrait-tech-logo-n8n{top:31%;left:-34px;animation-delay:-.8s}
-.portrait-tech-logo-python{top:15%;right:-34px;animation-delay:-1.8s}
-.portrait-tech-logo-telegram{top:57%;right:-34px;animation-delay:-2.7s}
-.portrait-tech-logo-sheets{top:52%;left:-34px;animation-delay:-3.1s}
-.portrait-tech-logo-gemini{top:36%;right:-34px;animation-delay:-2.2s}
-.portrait-tech-logo-github{top:73%;left:-34px;animation-delay:-3.6s}
+.portrait-tech-logo-n8n{top:30%;left:-40px;animation-delay:-.8s}
+.portrait-tech-logo-python{top:-40px;left:calc(50% - 20px);animation-delay:-1.8s}
+.portrait-tech-logo-telegram{top:68%;right:-40px;animation-delay:-2.7s}
+.portrait-tech-logo-sheets{top:68%;left:-40px;animation-delay:-3.1s}
+.portrait-tech-logo-gemini{top:30%;right:-40px;animation-delay:-2.2s}
+.portrait-tech-logo-github{top:calc(100% + 8px);left:calc(50% - 20px);animation-delay:-3.6s}
 .dark-theme .portrait-tech-logo-github img{filter:brightness(0) invert(1)}
 @keyframes tech-logo-float{0%,100%{transform:translateY(0)}50%{transform:translateY(-7px)}}
 @media(max-width:700px){
-  .portrait-tech-logo{width:32px;height:32px}
-  .portrait-tech-logo-python{top:-14px;left:50%;right:auto;transform:translateX(-50%)}
-  .portrait-tech-logo-n8n{top:25%;left:0;right:auto}
-  .portrait-tech-logo-sheets{top:52%;left:0;right:auto}
-  .portrait-tech-logo-github{top:78%;left:0;right:auto}
-  .portrait-tech-logo-gemini{top:38%;left:0;right:auto}
-  .portrait-tech-logo-telegram{top:65%;left:0;right:auto}
+  .portrait-tech-logo{width:28px;height:28px}
+  .portrait-tech-logo-n8n{top:30%;left:calc(50% - 178px);right:auto}
+  .portrait-tech-logo-sheets{top:68%;left:calc(50% - 178px);right:auto}
+  .portrait-tech-logo-gemini{top:30%;left:auto;right:calc(50% - 150px)}
+  .portrait-tech-logo-telegram{top:68%;left:auto;right:calc(50% - 150px)}
+  .portrait-tech-logo-python{top:-34px;left:calc(50% - 14px);right:auto}
+  .portrait-tech-logo-github{top:calc(100% + 5px);left:calc(50% - 14px);right:auto}
 }
 @media(max-width:390px){
-  .portrait-tech-logo{width:28px;height:28px}
-  .portrait-tech-logo-n8n{top:24%;left:0}
-  .portrait-tech-logo-sheets{top:51%;left:0}
-  .portrait-tech-logo-github{top:78%;left:0}
-  .portrait-tech-logo-gemini{top:38%;left:0;right:auto}
-  .portrait-tech-logo-telegram{top:65%;left:0;right:auto}
+  .portrait-stage{max-width:280px}
+  .portrait-tech-logo-n8n,.portrait-tech-logo-sheets{left:calc(50% - 168px)}
+  .portrait-tech-logo-gemini,.portrait-tech-logo-telegram{right:calc(50% - 140px)}
 }
 @media(max-width:360px){
-  .portrait-tech-logo{width:20px;height:20px;left:0;right:auto}
-  .portrait-tech-logo img{width:20px;height:20px}
-  .portrait-tech-logo-python{left:50%;right:auto;transform:translateX(-50%)}
-  .portrait-tech-logo-n8n{top:20%}
-  .portrait-tech-logo-sheets{top:36%}
-  .portrait-tech-logo-github{top:52%}
-  .portrait-tech-logo-gemini{top:68%}
-  .portrait-tech-logo-telegram{top:84%}
+  .portrait-tech-logo{width:24px;height:24px}
+  .portrait-tech-logo-n8n,.portrait-tech-logo-sheets{left:calc(50% - 164px)}
+  .portrait-tech-logo-gemini,.portrait-tech-logo-telegram{right:calc(50% - 140px)}
+  .portrait-tech-logo-python{top:-30px;left:calc(50% - 12px)}
+  .portrait-tech-logo-github{left:calc(50% - 12px)}
 }
 @media(prefers-reduced-motion:reduce){.portrait-tech-logo{animation:none}}
