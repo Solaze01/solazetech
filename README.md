@@ -21,6 +21,6 @@ The project screenshots link directly to their full-size originals. Their captio
 
 Keep the root `index.html`, `style.css`, `script.js`, and `assets/` together when publishing to GitHub Pages. Verify the published links and images after pushing to the repository serving the portfolio URL.
 
-The canonical portfolio URL and sitemap currently target `https://solaze01.github.io/solazetech/`. If the repository or GitHub Pages URL changes, update the canonical, Open Graph, social image, structured data, `robots.txt`, and `sitemap.xml` URLs together.
+The canonical portfolio URL and sitemap target `https://solazetech.vercel.app/`. If the production domain changes, update the canonical, Open Graph, social image, structured data, `robots.txt`, and `sitemap.xml` URLs together.
 
 The contact link uses `mailto:` and does not submit to a backend. The Shopify order operations demo is not listed as completed.

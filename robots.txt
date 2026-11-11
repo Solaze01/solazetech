@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://solaze01.github.io/solazetech/sitemap.xml
+Sitemap: https://solazetech.vercel.app/sitemap.xml
