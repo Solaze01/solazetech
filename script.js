@@ -4,6 +4,7 @@
   const menuToggle = document.querySelector('.menu-toggle');
   const navLinks = document.querySelector('.nav-links');
   const currentYear = document.getElementById('current-year');
+  const themeColor = document.querySelector('meta[name="theme-color"]');
 
   if (currentYear) currentYear.textContent = new Date().getFullYear();
 
@@ -11,11 +12,12 @@
     const dark = theme === 'dark';
     body.classList.toggle('dark-theme', dark);
     themeToggle?.setAttribute('aria-label', dark ? 'Switch to light theme' : 'Switch to dark theme');
+    themeColor?.setAttribute('content', dark ? '#0b0f19' : '#f4f6f8');
   };
 
   let savedTheme = null;
   try { savedTheme = localStorage.getItem('solazetech-theme'); } catch (_) { /* storage is optional */ }
-  setTheme(savedTheme || 'light');
+  setTheme(savedTheme || 'dark');
 
   themeToggle?.addEventListener('click', () => {
     const nextTheme = body.classList.contains('dark-theme') ? 'light' : 'dark';
